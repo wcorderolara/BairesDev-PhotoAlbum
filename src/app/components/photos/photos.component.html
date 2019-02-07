@@ -1,0 +1,10 @@
+<div>
+  <h1>PHOTOS</h1>
+  <br>
+  <div class="col-md-6">
+    <div *ngFor="let photo of photosList">
+      <img src="{{photo.url}}" alt="">
+      <p>{{photo.title}}</p>
+    </div>
+  </div>
+</div>
