@@ -42,7 +42,6 @@ export class AlbumsComponent implements OnInit {
   }
 
   viewPhotos(album: any) {
-    console.log('hola');
     this.router.navigate( ['photos/' + album.id]);
   }
 

@@ -42,7 +42,6 @@ export class PhotosComponent implements OnInit {
                               .sort(this.compare)
                               .slice(0, 2);
                   this.photosList = res;
-                  console.log(res);
                 })
   }
 
